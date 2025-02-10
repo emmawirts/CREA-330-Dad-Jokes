@@ -15,4 +15,6 @@ function generateJoke() {
      });
  }
 
+jokeBtn.addEventListener('click', generateJoke);
+
 generateJoke();
